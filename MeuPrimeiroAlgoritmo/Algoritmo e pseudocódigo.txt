@@ -1,0 +1,19 @@
+
+
+-----------------------------------Algoritmo-----------------------------------
+-Obter distancia a ser percorrida
+-Obter o preço do combustivel
+-obter o rendimento do automóvel por litro de combustivel
+-obter o preço e número de pedágios
+-multiplicar a distancia pelo preço do combustivel e dividir pelo rendimento
+-Calcular o custo da viagem
+
+---------------------------------Pseudocódigo---------------------------------
+distanciaPercorrida = 150 (informadaPeloUsuario)
+preçoDoCombustivelPorLitro = 1,50 (informadaPeloUsuario)
+rendimentoDoAutomovel = 15 (informadaPeloUsuario)
+preçoDoPedagio = 3,80 
+numeroDePedagios = 3
+multiplicar distanciaPercorrida por preçoDoCombustivel/rendimentoDoAutomovel para descobrir o gastoComGasolina
+multiplicar preçoDoPedagio por numeroDePedagios para descobrir gastoComPedagios
+somar gastoComPedagios com gastoComCombustivel para descobrir o gastoDaViagem
