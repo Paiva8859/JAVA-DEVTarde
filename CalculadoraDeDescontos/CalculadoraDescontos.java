@@ -1,4 +1,4 @@
-import javax.swing.plaf.synth.SynthScrollBarUI;
+
 
 public class CalculadoraDescontos {
     public void calcula20(){
