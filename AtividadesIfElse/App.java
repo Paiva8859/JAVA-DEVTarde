@@ -14,5 +14,7 @@ public class App {
         obj5.exercicio5();
         AtividadesIfElse obj6 = new AtividadesIfElse();
         obj6.exercicio6(); 
+        AtividadesIfElse obj7 = new AtividadesIfElse();
+        obj7.exercicio7();
     }
 }

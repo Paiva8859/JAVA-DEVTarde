@@ -63,24 +63,24 @@ public class AtividadesIfElse {
 
     public void exercicio5() {
         System.out.println("Informe o primeiro número");
-        int n1 = (int) sc.nextDouble();
+        double n1 = sc.nextDouble();
         System.out.println("Informe o segundo número");
-        int n2 = (int) sc.nextDouble();
+        double n2 = sc.nextDouble();
         System.out.println("Informe o terceiro número");
-        int n3 = (int) sc.nextDouble();
+        double n3 = sc.nextDouble();
 
         if (n1 > n2 && n1 > n3) {
-            System.out.println("Os numeros em ordem crescente ficam:" + n3 + "," + n2 + "," + n1);
+            System.out.println("Os numeros em ordem crescente ficam:" + n3 + ", " + n2 + ", " + n1);
         } else if (n1 > n3 && n1 > n2) {
-            System.out.println("Os numeros em ordem crescente ficam:" + n2 + "," + n3 + "," + n1);
+            System.out.println("Os numeros em ordem crescente ficam:" + n2 + ", " + n3 + ", " + n1);
         } else if (n2 > n1 && n2 > n3) {
-            System.out.println("Os numeros em ordem crescente ficam:" + n3 + "," + n1 + "," + n2);
+            System.out.println("Os numeros em ordem crescente ficam:" + n3 + ", " + n1 + ", " + n2);
         } else if (n2 > n3 && n2 > n1) {
-            System.out.println("Os numeros em ordem crescente ficam:" + n1 + "," + n3 + "," + n2);
+            System.out.println("Os numeros em ordem crescente ficam:" + n1 + ", " + n3 + ", " + n2);
         } else if (n3 > n2 && n3 > n1) {
-            System.out.println("Os numeros em ordem crescente ficam:" + n1 + "," + n2 + "," + n3);
+            System.out.println("Os numeros em ordem crescente ficam:" + n1 + ", " + n2 + ", " + n3);
         } else if (n3 > n1 && n3 > n2) {
-            System.out.println("Os numeros em ordem crescente ficam:" + n1 + "," + n3 + "," + n2);
+            System.out.println("Os numeros em ordem crescente ficam:" + n1 + ", " + n3 + ", " + n2);
         }
         System.out.println("=================================");
     }
@@ -90,13 +90,42 @@ public class AtividadesIfElse {
         double sexo = sc.nextDouble();
         System.out.println("Insira sua altura");
         double altura = sc.nextDouble();
+        double pesoIdeal;
         if (sexo == 1) {
-            double pesoIdeal = (62.1 * altura) - 44.7;
+            pesoIdeal = (62.1 * altura) - 44.7;
             System.out.println("Seu peso ideal é de: " + pesoIdeal + "Kg");
         } else if (sexo == 2) {
-            double pesoIdeal = (72.7 * altura) - 58;
+            pesoIdeal = (72.7 * altura) - 58;
             System.out.println("Seu peso ideal é de: " + pesoIdeal + "Kg");
+            System.out.println("=================================");
         }
 
+    }
+
+    public void exercicio7() {
+        System.out.println("Informe a nota 1 do aluno");
+        double nota1 = sc.nextDouble();
+        System.out.println("Informe a nota 2 do aluno");
+        double nota2 = sc.nextDouble();
+        double media = (nota1 + nota2)/2;
+        if (media>= 50) {
+            System.out.println("A média do aluno é: " + media + " O aluno está aprovado por nota!");
+        } else {
+            System.out.println("A média do aluno é: " + media + " O aluno está reprovado por nota!");
+        }
+        
+        System.out.println("Informe a frequência do aluno");
+        double frequencia = sc.nextDouble();
+        if (frequencia >=75) {
+            System.out.println("O aluno está aprovado por frequência");
+        } else {
+        System.out.println("O aluno está reprovado por frequência");           
+        }
+
+        if (media >=50 && frequencia >= 75) {
+            System.out.println("O aluno está aprovado no curso!");
+        } else {
+            System.out.println("O aluno está reprovado no curso!");
+        }
     }
 }
