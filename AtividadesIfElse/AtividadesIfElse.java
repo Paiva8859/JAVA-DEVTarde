@@ -88,7 +88,7 @@ public class AtividadesIfElse {
     public void exercicio6() {
         System.out.println("Informe seu sexo, insira 1 para feminino ou 2 para masculino");
         double sexo = sc.nextDouble();
-        System.out.println("Insira sua altura");
+        System.out.println("Insira sua altura em metros");
         double altura = sc.nextDouble();
         double pesoIdeal;
         if (sexo == 1) {
