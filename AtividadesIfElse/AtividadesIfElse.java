@@ -69,17 +69,17 @@ public class AtividadesIfElse {
         System.out.println("Informe o terceiro número");
         double n3 = sc.nextDouble();
 
-        if (n1 > n2 && n1 > n3) {
+        if (n1 > n2 && n1 > n3 && n2>n3) {
             System.out.println("Os numeros em ordem crescente ficam:" + n3 + ", " + n2 + ", " + n1);
-        } else if (n1 > n3 && n1 > n2) {
+        } else if (n1 > n3 && n1 > n2 && n3>n2) {
             System.out.println("Os numeros em ordem crescente ficam:" + n2 + ", " + n3 + ", " + n1);
-        } else if (n2 > n1 && n2 > n3) {
+        } else if (n2 > n1 && n2 > n3 && n1>n3) {
             System.out.println("Os numeros em ordem crescente ficam:" + n3 + ", " + n1 + ", " + n2);
-        } else if (n2 > n3 && n2 > n1) {
+        } else if (n2 > n3 && n2 > n1 && n3>n1) {
             System.out.println("Os numeros em ordem crescente ficam:" + n1 + ", " + n3 + ", " + n2);
-        } else if (n3 > n2 && n3 > n1) {
+        } else if (n3 > n2 && n3 > n1 && n2>n1) {
             System.out.println("Os numeros em ordem crescente ficam:" + n1 + ", " + n2 + ", " + n3);
-        } else if (n3 > n1 && n3 > n2) {
+        } else if (n3 > n1 && n3 > n2 && n1>n2) {
             System.out.println("Os numeros em ordem crescente ficam:" + n1 + ", " + n3 + ", " + n2);
         }
         System.out.println("=================================");
