@@ -1,0 +1,81 @@
+1) X
+dado uma sequencia de numeros inteiros, imprimir os seus quadrados
+
+
+2)X
+Escreva um algoritmo para ler o salário atual de um funcionário 
+e o percentual de reajuste, calcular e escrever o resultado
+
+3)
++=====================================================================+
+| Programa: Desafio Dados 3 números, imprimi-los em ordem crescente   |
+| Autor : Caio Mayeda                                                 |
+| Data : 27 de Setembro de 2022                                       |
++=====================================================================+
+
+
+4) X
++=====================================================================+
+| Programa: Desafio - Escreva um algoritmo para ler 2 valores e se o  |
+| segundo valor informado for ZERO, deve ser lido um novo valor, ou   |
+| seja, para o segundo valor não pode ser aceito o valor zero e       |
+| imprimir o resultado da divisão do primeiro valor lido pelo segundo |
+| valor lido                                                          |
+| Autor : Caio Mayeda                                                 |
+| Data : 29 de Setembro de 2022                                       |
++=====================================================================+
+
+
+5) X
++=====================================================================+
+| Programa: Ler 10 valores e escrever quantos desses valores lidos são|
+| NEGATIVOS.                                                          |
+| Autor : Caio Mayeda                                                 |
+| Data : 29 de Setembro de 2022                                       |
++=====================================================================+
+
+
+6)
++=====================================================================+
+| Programa: Desafio - Atividade Desenvolver um algoritmo que leia a   |
+| altura de 15 pessoas. Este programa deverá calcular e mostrar: a.   |
+| A menor altura do grupo; b. A maior altura do grupo                 |
+| Autor : Caio Mayeda                                                 |
+| Data : 28 de Setembro de 2022                                       |
++=====================================================================+
+
+
+7)
++=====================================================================+
+| Programa: Escreva um algoritmo que receba o valor normal de uma     |
+| diária e, em seguida, receba nomes de hóspedes e suas idades.       |
+| Caso o hóspede tenha idade inferior a 4 anos, ele não paga          |
+| hospedagem, nesse caso, mostre na tela “(Nome do hóspede) possui    |
+| gratuidade”. Hóspede com mais de 80 anos paga metade, então mostre  |
+| na tela “(Nome do hóspede) paga meia”. O usuário informará hóspedes |
+| até digitar a palavra “PARE”, que interrompe a entrada de dados.    |  
+| Ao fim, mostre a quantidade de gratuidades, a quantidade de meias   |
+| hospedagens e o valor total, considerando todos os hóspedes         |
+| informados.e                                                        |
+| Calcular e escrever o valor da reserva                              */
+
+
+8)
++=====================================================================+
+| Programa: Desafio - Faça um programa que mostre as tabuadas dos     |
+| números de 1 a 10 usando laços de repetição.                        |
+| Autor : Caio Mayeda                                                 |
+| Data : 28 de Setembro de 2022                                       |
++=====================================================================+
+
+
+9)
++=====================================================================+
+| Programa: Desafio - Atividade Desenvolver um algoritmo que efetue a |
+| soma de todos os números ímpares que são múltiplos de três e que se |
+| encontram no conjunto dos números de 1 até 500                      |
+| Autor : Caio Mayeda                                                 |
+| Data : 28 de Setembro de 2022                                       |
++=====================================================================+
+
+

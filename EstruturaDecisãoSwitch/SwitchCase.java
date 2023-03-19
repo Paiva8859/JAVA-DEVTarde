@@ -23,10 +23,26 @@ public class SwitchCase {
                 break;
             case "u":
                 System.out.println(letra + " é uma vogal");
+            case "A":
+                System.out.println(letra + " é uma vogal");
+                break;
+            case "E":
+                System.out.println(letra + " é uma vogal");
+                break;
+            case "I":
+                System.out.println(letra + " é uma vogal");
+                break;
+            case "O":
+                System.out.println(letra + " é uma vogal");
+                break;
+            case "U":
+                System.out.println(letra + " é uma vogal");
+                break;
             default:
                 System.out.println(letra + " é uma consoante");
                 break;
         }
+        System.out.println("========================================");
     }
 
     public void mes() {
@@ -69,7 +85,41 @@ public class SwitchCase {
             case "12":
                 System.out.println("O número " + numero + " representa o mês de dezembro");
                 break;
+            default:
+                System.out.println("Você deve inserir um numero de 1 a 12 para saber qual mês ele representa");
+                break;
         }
+        System.out.println("========================================");
     }
 
+    public void dia() {
+        System.out.println("Insira um número de 1 a 7 para saber qual dia da semana ele representa");
+        String numero = sc.nextLine();
+        switch (numero) {
+            case "1":
+                System.out.println("O numero " + numero + " representa o domingo");
+                break;
+            case "2":
+                System.out.println("O numero " + numero + " representa a segunda-feira");
+                break;
+            case "3":
+                System.out.println("O numero " + numero + " representa a terça-feira");
+                break;
+            case "4":
+                System.out.println("O numero " + numero + " representa a quarta-feira");
+                break;
+            case "5":
+                System.out.println("O numero " + numero + " representa a quinta-feira");
+                break;
+            case "6":
+                System.out.println("O numero " + numero + " representa a sexta-feira");
+                break;
+            case "7":
+                System.out.println("O numero " + numero + " representa o sábado");
+                break;
+            default:
+                System.out.println("Você deve inserir um número de 1 a 7 para saber qual dia da semana ele representa");
+                break;
+        }
+    }
 }

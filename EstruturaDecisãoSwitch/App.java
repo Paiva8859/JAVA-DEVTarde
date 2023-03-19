@@ -6,5 +6,7 @@ public class App {
         obj1.letra();
         SwitchCase obj2 = new SwitchCase();
         obj2.mes();
+        SwitchCase obj3 = new SwitchCase();
+        obj3.dia();
     }
 }
