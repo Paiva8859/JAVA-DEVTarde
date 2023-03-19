@@ -6,7 +6,7 @@ public class SwitchCase {
     Scanner sc = new Scanner(System.in);
 
     public void letra() {
-        System.out.println("Digite uma letra");
+        System.out.println("Digite uma letra para saber se é uma vogal ou consoante");
         String letra = sc.nextLine();
         switch (letra) {
             case "a":
@@ -30,45 +30,45 @@ public class SwitchCase {
     }
 
     public void mes() {
-        System.out.println("Digite um número");
+        System.out.println("Digite um número de 1 a 12 para saber qual mês ele representa.");
         String numero = sc.nextLine();
         switch (numero) {
             case "1":
-            System.out.println("O número "+numero+" representa o mês de janeiro");
-            break;
+                System.out.println("O número " + numero + " representa o mês de janeiro");
+                break;
             case "2":
-            System.out.println("O número "+numero+" representa o mês de fevereiro");
-            break;
+                System.out.println("O número " + numero + " representa o mês de fevereiro");
+                break;
             case "3":
-            System.out.println("O número "+numero+" representa o mês de março");
-            break;
+                System.out.println("O número " + numero + " representa o mês de março");
+                break;
             case "4":
-            System.out.println("O número "+numero+" representa o mês de abril");
-            break;
+                System.out.println("O número " + numero + " representa o mês de abril");
+                break;
             case "5":
-            System.out.println("O número "+numero+" representa o mês de maio");
-            break;
+                System.out.println("O número " + numero + " representa o mês de maio");
+                break;
             case "6":
-            System.out.println("O número "+numero+" representa o mês de junho");
-            break;
+                System.out.println("O número " + numero + " representa o mês de junho");
+                break;
             case "7":
-            System.out.println("O número "+numero+" representa o mês de julho");
-            break;
+                System.out.println("O número " + numero + " representa o mês de julho");
+                break;
             case "8":
-            System.out.println("O número "+numero+" representa o mês de agosto");
-            break;
+                System.out.println("O número " + numero + " representa o mês de agosto");
+                break;
             case "9":
-            System.out.println("O número "+numero+" representa o mês de setembro");
-            break;
+                System.out.println("O número " + numero + " representa o mês de setembro");
+                break;
             case "10":
-            System.out.println("O número "+numero+" representa o mês de outubro");
-            break;
+                System.out.println("O número " + numero + " representa o mês de outubro");
+                break;
             case "11":
-            System.out.println("O número "+numero+" representa o mês de novembro");
-            break;
+                System.out.println("O número " + numero + " representa o mês de novembro");
+                break;
             case "12":
-            System.out.println("O número "+numero+" representa o mês de desembro");
-            break;
+                System.out.println("O número " + numero + " representa o mês de dezembro");
+                break;
         }
     }
 
