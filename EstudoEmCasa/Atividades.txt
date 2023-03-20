@@ -35,7 +35,7 @@ e o percentual de reajuste, calcular e escrever o resultado
 +=====================================================================+
 
 
-6) X
+6)
 +=====================================================================+
 | Programa: Desafio - Atividade Desenvolver um algoritmo que leia a   |
 | altura de 15 pessoas. Este programa deverá calcular e mostrar: a.   |
