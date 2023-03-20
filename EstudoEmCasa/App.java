@@ -7,43 +7,50 @@ public class App {
         
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Qual Objeto executar?");
-        String exe = sc.nextLine();
+        int exe = 1;
+
+        while (exe > 0) {
+        System.out.println("Qual Objeto executar? Para cancelar digite 0");
+        exe = sc.nextInt();
+
+        
 
         switch (exe) { 
-
-            case "1":
+                
+            case 1:
                 Exercicios obj1 = new Exercicios();
                 obj1.exercicio1();
             break;
 
-            case "2":
+            case 2:
                 Exercicios obj2 = new Exercicios();
                 obj2.exercicio2();
             break;
                 
-            case "3":
+            case 3:
                 Exercicios obj3 = new Exercicios();
                 obj3.exercicio3();
             break;
 
-            case "4": 
+            case 4: 
                 Exercicios obj4 = new Exercicios();
                 obj4.exercicio4();
             break;
                 
-            case "5":
+            case 5:
                 Exercicios obj5 = new Exercicios();
                 obj5.exercicio5();
             break;    
             
-            case "6":
+            case 6:
                 Exercicios obj6 = new Exercicios();
                 obj6.exercicio6();
             break;
 
         }
 
+        }
         sc.close();
+
     }
 }
