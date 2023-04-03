@@ -60,7 +60,7 @@ public class Vetores {
         int c1 = 1;
         int c2 = 0;
 
-        while (c1 <= 5) {
+        while (c2 <= 4) {
             System.out.println("Insira o " + c1 + "° número");
             A[c2] = sc.nextInt();
             B[c2] = A[c2];
@@ -72,7 +72,7 @@ public class Vetores {
         c2 = 0;
 
         System.out.println("================Vetor A================ ");
-        while (c1 <= 8) {
+        while (c2 <= 4) {
             System.out.println("O valor da " + c1 + "° posição índice " + c1 + " do vetor A é: " + A[c2]);
             c1++;
             c2++;
@@ -81,8 +81,8 @@ public class Vetores {
         c1 = 1;
         c2 = 0;
 
-        System.out.println("================Vetor A================ ");
-        while (c1 <= 8) {
+        System.out.println("================Vetor B================ ");
+        while (c2 <= 4) {
             System.out.println("O valor da " + c1 + "° posição índice " + c1 + " do vetor B é: " + B[c2]);
             c1++;
             c2++;
@@ -95,7 +95,7 @@ public class Vetores {
         int c1 = 1;
         int c2 = 0;
 
-        while (c1 <= 8) {
+        while (c2 <= 7) {
             System.out.println("Insira o " + c1 + "° número");
             A[c2] = sc.nextInt();
             B[c2] = A[c2] * 2;
@@ -107,7 +107,7 @@ public class Vetores {
         c2 = 0;
 
         System.out.println("================Vetor A================ ");
-        while (c1 <= 8) {
+        while (c2 <= 7) {
             System.out.println("O valor da " + c1 + "° posição índice " + c1 + " do vetor A é: " + A[c2]);
             c1++;
             c2++;
@@ -116,8 +116,8 @@ public class Vetores {
         c1 = 1;
         c2 = 0;
 
-        System.out.println("================Vetor A================ ");
-        while (c1 <= 8) {
+        System.out.println("================Vetor B================ ");
+        while (c1 <= 7) {
             System.out.println("O valor da " + c1 + "° posição índice " + c1 + " do vetor B é: " + B[c2]);
             c1++;
             c2++;
@@ -130,7 +130,7 @@ public class Vetores {
         int c1 = 1;
         int c2 = 0;
 
-        while (c1 <= 15) {
+        while (c2 <= 14) {
             System.out.println("Insira o " + c1 + "° número");
             A[c2] = sc.nextInt();
             B[c2] = A[c2] * A[c2];
@@ -142,7 +142,7 @@ public class Vetores {
         c2 = 0;
 
         System.out.println("================Vetor A================ ");
-        while (c1 <= 15) {
+        while (c2 <= 14) {
             System.out.println("O valor da " + c1 + "° posição índice " + c1 + " do vetor A é: " + A[c2]);
             c1++;
             c2++;
@@ -152,7 +152,7 @@ public class Vetores {
         c2 = 0;
 
         System.out.println("================Vetor B================ ");
-        while (c1 <= 15) {
+        while (c2 <= 14) {
             System.out.println("O valor da " + c1 + "° posição índice " + c1 + " do vetor B é: " + B[c2]);
             c1++;
             c2++;
@@ -166,7 +166,7 @@ public class Vetores {
         int c1 = 1;
         int c2 = 0;
 
-        while (c1 <= 15) {
+        while (c2 <= 14) {
             System.out.println("Insira o " + c1 + "° número");
             A[c2] = sc.nextInt();
             B[c2] = Math.sqrt(A[c2]);
@@ -178,7 +178,7 @@ public class Vetores {
         c2 = 0;
 
         System.out.println("================Vetor A================ ");
-        while (c1 <= 15) {
+        while (c2 <= 14) {
             System.out.println("O valor da " + c1 + "° posição índice " + c1 + " do vetor A é: " + A[c2]);
             c1++;
             c2++;
@@ -188,7 +188,7 @@ public class Vetores {
         c2 = 0;
 
         System.out.println("================Vetor B================ ");
-        while (c1 <= 15) {
+        while (c2 <= 14) {
             System.out.println("O valor da " + c1 + "° posição índice " + c1 + " do vetor B é: " + B[c2]);
             c1++;
             c2++;
@@ -203,7 +203,7 @@ public class Vetores {
         int c1 = 1;
         int c2 = 0;
 
-        while (c1 <= 10) {
+        while (c2 <= 9) {
             System.out.println("Insira o " + c1 + "° número");
             A[c2] = sc.nextInt();
             B[c2] = A[c2] * c2;
@@ -215,7 +215,7 @@ public class Vetores {
         c2 = 0;
 
         System.out.println("================Vetor A================ ");
-        while (c1 <= 10) {
+        while (c2 <= 9) {
             System.out.println("O valor da " + c1 + "° posição índice " + c1 + " do vetor A é: " + A[c2]);
             c1++;
             c2++;
@@ -225,7 +225,7 @@ public class Vetores {
         c2 = 0;
 
         System.out.println("================Vetor B================ ");
-        while (c1 <= 10) {
+        while (c2 <= 9) {
             System.out.println("O valor da " + c1 + "° posição índice " + c1 + " do vetor B é: " + B[c2]);
             c1++;
             c2++;
@@ -239,7 +239,7 @@ public class Vetores {
         int c1 = 1;
         int c2 = 0;
 
-        while (c1 <= 10) {
+        while (c2 <= 9) {
             System.out.println("Insira o " + c1 + "° número");
             A[c2] = sc.nextInt();
             B[c2] = A[c2];
@@ -252,7 +252,7 @@ public class Vetores {
         c2 = 0;
 
         System.out.println("================Vetor A================");
-        while (c1 <= 10) {
+        while (c2 <= 9) {
             System.out.println("O valor da " + c1 + "° posição índice " + c1 + " do vetor A é: " + A[c2]);
             c1++;
             c2++;
@@ -262,7 +262,7 @@ public class Vetores {
         c2 = 0;
 
         System.out.println("================Vetor B================ ");
-        while (c1 <= 10) {
+        while (c2 <= 9) {
             System.out.println("O valor da " + c1 + "° posição índice " + c1 + " do vetor B é: " + B[c2]);
             c1++;
             c2++;
@@ -272,7 +272,7 @@ public class Vetores {
         c2 = 0;
 
         System.out.println("================Vetor C================ ");
-        while (c1 <= 10) {
+        while (c2 <= 9) {
             System.out.println("O valor da " + c1 + "° posição índice " + c1 + " do vetor C é: " + C[c2]);
             c1++;
             c2++;
