@@ -23,9 +23,27 @@ public class App {
                     obj2.exercicio2();
                     break;
 
+                case 3:
+                    LacoRepeticaoFor obj3 = new LacoRepeticaoFor();
+                    obj3.exercicio3();
+                    break;
+
+                case 4:
+                    LacoRepeticaoFor obj4 = new LacoRepeticaoFor();
+                    obj4.exercicio4();
+                    break;
+
+                case 5:
+                    LacoRepeticaoFor obj5 = new LacoRepeticaoFor();
+                    obj5.exercicio5();
+                    break;
+
+                case 6:
+                    LacoRepeticaoFor obj6 = new LacoRepeticaoFor();
+                    obj6.exercicio6();
+                    break;
             }
-            
-            sc.close();
         }
+        sc.close();
     }
 }
