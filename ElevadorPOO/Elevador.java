@@ -13,7 +13,6 @@ public class Elevador {
         int acao = 0;
         
         while (rodando == true) {
-            System.out.charset();
             movimento = false;
 
             // Matrizes
