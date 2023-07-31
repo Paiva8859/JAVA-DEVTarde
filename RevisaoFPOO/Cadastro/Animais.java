@@ -1,6 +1,6 @@
 package RevisaoFPOO.Cadastro;
 
-public class Animais {
+public abstract class Animais {
     //ATRIBUTOS
     String porte;
     double peso;
