@@ -16,7 +16,7 @@ public abstract class Animais {
         this.genero = genero;
         this.especie = especie;
     }
-
+    
     public Animais(){
         
     }
